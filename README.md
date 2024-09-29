@@ -344,8 +344,7 @@ OLS = ols(formula = ols_formula, data = ols_data)
 model = OLS.fit()
 ```
 
-Lastly, we can call the summary() function on the model object to get the coefficients and more statistics about the model. The output from model.summary() can be used to evaluate the model and interpret the results. Later in this section, we will go over how to read the results of the model output.
-
+Lastly, we can call the summary() function on the model object to get the coefficients and more statistics about the model. The output from model.summary() can be used to evaluate the model and interpret the results. 
 
 ```python
 model.summary()
@@ -433,7 +432,7 @@ sns.regplot(x = "bill_length_mm" , y = "body_mass_g", data = ols_data)
 
 
 # Finish checking model assumptions
-As you learned in previous videos, there are four main model assumptions for simple linear regression, in no particular order:
+ there are four main model assumptions for simple linear regression, in no particular order:
 
 1. Linearity 
 2. Normality
