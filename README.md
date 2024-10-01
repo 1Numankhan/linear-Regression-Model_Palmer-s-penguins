@@ -477,9 +477,10 @@ plt.show
 
 
 
+![output_23_1](https://github.com/user-attachments/assets/d19e8e15-95e9-4e35-bffe-a4e185bf7729)
 
     
-![png](output_23_1.png)
+
     
 
 
@@ -493,11 +494,10 @@ import statsmodels.api as sm
 fig = sm.qqplot(model.resid,line = 's')
 plt.show()
 ```
+![output_25_0](https://github.com/user-attachments/assets/bedd9df3-50c7-4869-b14b-2a6d53ec8e24)
 
 
-    
-![png](output_25_0.png)
-    
+
 
 
 Lastly, we have to check the homoscedasticity assumption. To check the homoscedasticity assumption, you can create a scatterplot of the fitted values and residuals. If the plot resembles a random cloud (i.e., the residuals are scattered randomly), then the assumption is likely met.
@@ -523,8 +523,9 @@ plt.show()
 
 
     
-![png](output_27_0.png)
+
     
+![output_27_0](https://github.com/user-attachments/assets/135e9e5d-feb4-4f5e-9675-6704d85abee6)
 
 
 
